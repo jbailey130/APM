@@ -6,5 +6,9 @@
         "**/*.js":true,
         "**/*.map":true
     }, 
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+        // Whether auto fetching is enabled.
+    "git.exclude": {
+        "**/node_modules": true
+    }
 }
